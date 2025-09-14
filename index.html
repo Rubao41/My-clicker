@@ -10,7 +10,7 @@
     <section>
         <div class="main">
             <div class="left">
-                <h3>Labubu: <span class="lbb-cost">500</span></h3>
+                <h3>Labubu: <span class="lbb-cost">5000</span></h3>
                 <img src="./assets/Green-Labubu.png" alt="" srcset="" class="lbb-image" onclick="incrementlbb()" draggable="false">
             </div>
             <div class="right">
@@ -30,10 +30,61 @@
 
                     <div class="next-level-info">
                         <p>
-                            +<span class="clicker-increase">1</span> Labubu <br /> per second
+                            +<span class="clicker-increase">1</span> Labubu <br /> per click
                         </p>
                     </div>
 
+                </div>
+
+                                <div class="upgrade" onclick="buyLoveberry()">
+                    <div class="left-section">
+                        <img src="./assets/Loveberry.png" alt="" class="upgrade-img">
+
+                    </div>
+                    <div class="mid-section">
+                        <h4>Loveberry</h4>
+                        <div class="cost-info">
+                            <p>cost: <span class="loveberry-cost">130</span></p>
+                            <img src="./assets/Green-Labubu.png" alt="" srcset="" class="lbb-img">
+                        </div>
+                    </div>
+                    <div class="right-section">Level <span class="loveberry-level">0</span></div>
+
+                    <div class="next-level-info">
+                        <p>
+                            +<span class="loveberry-increase">4</span> Labubu <br /> per second
+                        </p>
+                    </div>
+
+                </div>
+
+                                <div class="upgrade" onclick="buyBobbieGoods()">
+                    <div class="left-section">
+                        <img src="./assets/Bobbie-Goods.png" alt="" class="upgrade-img">
+
+                    </div>
+                    <div class="mid-section">
+                        <h4>Bobbie Goods</h4>
+                        <div class="cost-info">
+                            <p>cost: <span class="bobbie-goods-cost">850</span></p>
+                            <img src="./assets/Green-Labubu.png" alt="" srcset="" class="lbb-img">
+                        </div>
+                    </div>
+                    <div class="right-section">Level <span class="bobbie-goods-level">0</span></div>
+
+                    <div class="next-level-info">
+                        <p>
+                            +<span class="bobbie-goods-increase">12</span> Labubu <br /> per second
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="statistics">
+                <div class="texts">
+                    <p>LPC: <span id="lpc-text">1</span></p>
+                    <p>LPS: <span id="lps-text">0</span></p>
                 </div>
             </div>
         </div>

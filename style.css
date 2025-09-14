@@ -21,9 +21,8 @@ body {
 }
 
 .lbb-image {
-    width: 300px;
+    width: 250px;
 }
-
 .lbb-image:hover {
     opacity:0.9;
     cursor: pointer;
@@ -45,6 +44,7 @@ body {
     padding: 25px 20px;
     border-radius: 5px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .mid-section h4 {
@@ -83,4 +83,24 @@ body {
 
 .upgrade:hover .next-level-info {
     display: block;
+}
+
+.statistics {
+    position: absolute;
+    bottom: 0px;
+    width: 450px;
+    padding: 30px;
+    border: 2px solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.texts {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
 }
